@@ -1,0 +1,114 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner img {
+  width: 400px;
+}
+
+.bannerLinks {
+  display: flex;
+}
+
+.bannerLinks li {
+  list-style: none;
+  color: #087021;
+  margin-bottom: 0;
+}
+
+.bannerLinks a {
+  color: #087021;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.bannerLinks a:hover {
+  border-bottom: 3px solid #087021;
+}
+
+.enlaces {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: white;
+  padding-right: 2em;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.buscadorContainer {
+  background-image: url("../images/buscador1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8em;
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+}
+
+.buscador {
+  background-color: #ffffffd9;
+  padding: 3em;
+  border-radius: 8px;
+}
+
+.buscador input {
+  width: 500px;
+  padding: 0.5em;
+}
+
+.buscadorText {
+  display: flex;
+  background-color: #087021;
+}
+
+.buscadorText button {
+  color: white;
+}
+
+.carousel {
+  margin-top: 1em;
+  padding: 5em;
+}
+
+.carousel-indicators {
+  margin-top: 10em;
+}
+
+.carousel-indicators li.active {
+  color: #087021;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: #087021;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: #087021;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 180px;
+}
